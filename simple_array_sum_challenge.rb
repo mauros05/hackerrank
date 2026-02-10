@@ -5,6 +5,6 @@
 #
 
 def simpleArraySum(ar)
-  # Write your code here
-  ar.sum
+    # Write your code here
+    ar.sum
 end
