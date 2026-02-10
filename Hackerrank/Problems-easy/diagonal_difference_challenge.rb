@@ -11,8 +11,8 @@ def diagonalDifference(arr)
   secondary_diagonal = 0
 
   (0..num - 1).each do |i|
-      primary_diagonal += arr[i][i]
-      secondary_diagonal += arr[i][-i - 1]
+    primary_diagonal += arr[i][i]
+    secondary_diagonal += arr[i][-i - 1]
   end
 
   (primary_diagonal - secondary_diagonal).abs
